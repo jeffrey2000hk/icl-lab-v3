@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="ds_password" type="id">ds_password</item>
+    <item name="ds_password_back" type="id">ds_password_back</item>
+    <item name="btn_create_session" type="id">btn_create_session</item>
+    <item name="btn_student_surface" type="id">btn_student_surface</item>
+    <item name="TableRow03" type="id" />
+    <item name="TableRow04" type="id" />
+    <item name="TableRow05" type="id" />
+    <item name="TableRow06" type="id" />
+    <item name="TableRow07" type="id" />
+    <item name="TableRow08" type="id" />
+    <item name="teacher_password" type="id" />
+    <item name="CheckBox01" type="id" />
+    <item name="CheckBox02" type="id" />
+    <item name="CheckBox03" type="id" />
+    <item name="CheckBox04" type="id" />
+    <item name="CheckBox05" type="id" />
+    <item name="CheckBox06" type="id" />
+    <item name="CheckBox07" type="id" />
+    <item name="CheckBox08" type="id" />
+    <item name="CheckBox09" type="id" />
+    <item name="CheckBox10" type="id" />
+    <item name="CheckBox11" type="id" />
+    <item name="CheckBox12" type="id" />
+    <item name="CheckBox13" type="id" />
+    <item name="CheckBox14" type="id" />
+    <item name="CheckBox15" type="id" />
+    <item name="CheckBox16" type="id" />
+    <item name="CheckBox17" type="id" />
+    <item name="CheckBox18" type="id" />
+    <item name="CheckBox19" type="id" />
+    <item name="CheckBox20" type="id" />
+    <item name="CheckBox21" type="id" />
+    <item name="CheckBox22" type="id" />
+    <item name="CheckBox23" type="id" />
+    <item name="CheckBox24" type="id" />
+    <item name="CheckBox25" type="id" />
+    <item name="CheckBox26" type="id" />
+    <item name="CheckBox27" type="id" />
+    <item name="CheckBox28" type="id" />
+    <item name="CheckBox29" type="id" />
+    <item name="CheckBox30" type="id" />
+    <item name="CheckBox31" type="id" />
+    <item name="CheckBox32" type="id" />
+    <item name="CheckBox33" type="id" />
+    <item name="CheckBox34" type="id" />
+    <item name="CheckBox35" type="id" />
+    <item name="CheckBox36" type="id" />
+    <item name="CheckBox37" type="id" />
+    <item name="CheckBox38" type="id" />
+    <item name="CheckBox39" type="id" />
+    <item name="CheckBox40" type="id" />
+    <item name="btn1" type="id" />
+    <item name="btn2" type="id" />
+    <item name="btn3" type="id" />
+    <item name="btn4" type="id" />
+    <item name="btn5" type="id" />
+    <item name="btn6" type="id" />
+    <item name="btn7" type="id" />
+    <item name="btn8" type="id" />
+    <item name="btn9" type="id" />
+    <item name="btn10" type="id" />
+    <item name="btn11" type="id" />
+    <item name="btn12" type="id" />
+    <item name="btn13" type="id" />
+    <item name="btn14" type="id" />
+    <item name="btn15" type="id" />
+    <item name="btn16" type="id" />
+    <item name="btn17" type="id" />
+    <item name="btn18" type="id" />
+    <item name="btn19" type="id" />
+    <item name="btn20" type="id" />
+    <item name="btn21" type="id" />
+    <item name="btn22" type="id" />
+    <item name="btn23" type="id" />
+    <item name="btn24" type="id" />
+    <item name="btn25" type="id" />
+    <item name="btn26" type="id" />
+    <item name="btn27" type="id" />
+    <item name="btn28" type="id" />
+    <item name="btn29" type="id" />
+    <item name="btn30" type="id" />
+    <item name="surface_selection_confirm" type="id" />
+    <item name="from_seating_to_input" type="id" />
+    <item name="button2" type="id" />
+
+</resources>

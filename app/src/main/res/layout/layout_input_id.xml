@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@+id/LinearLayout1" android:background="#ffffffff" android:layout_width="fill_parent" android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:id="@+id/thankyou_machineID" android:padding="10.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Please enter your student ID card number" />
+    <TableRow android:id="@+id/tableRow7" android:paddingTop="10.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="vertical" android:paddingLeft="10.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="2.0">
+            <LinearLayout android:orientation="vertical" android:background="#ff88ff88" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0" android:onClick="view_desktop_user"
+                android:nestedScrollingEnabled="false">
+                <TableRow android:gravity="center" android:id="@+id/tableRow8" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0">
+                    <TextView android:textSize="30.0sp" android:id="@+id/teacher_surface_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Desktop:" />
+                </TableRow>
+                <TableRow android:gravity="center" android:id="@+id/tableRow10" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0">
+                    <TextView android:textSize="30.0sp" android:id="@+id/desktop_no" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="12" />
+                    <TextView android:textSize="30.0sp" android:id="@+id/textView8" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text=" Left" />
+                </TableRow>
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:background="#ffff8888" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0" android:onClick="view_surface"
+                android:visibility="visible">
+                <TableRow android:gravity="center" android:id="@+id/tableRow9" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0">
+                    <TextView android:textSize="30.0sp" android:id="@+id/remain_surface_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Surface:" />
+                </TableRow>
+                <TableRow android:gravity="center" android:id="@+id/tableRow11" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0">
+                    <TextView android:textSize="30.0sp" android:id="@+id/surface_no" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="40" />
+                    <TextView android:textSize="30.0sp" android:id="@+id/remain_surface" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text=" Left" />
+                </TableRow>
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <TableRow android:gravity="center" android:id="@+id/tableRow1" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <Button android:id="@+id/btn_start_scan" android:background="@drawable/button_background" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Scan it" android:onClick="scan_barcode" />
+            </TableRow>
+            <TableRow android:gravity="center" android:id="@+id/tableRow2" android:paddingTop="10.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <TextView android:id="@+id/view_person" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                <TextView android:textSize="18.0sp" android:id="@+id/textView5" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="S" />
+                <EditText android:id="@+id/edittext_input_id" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minWidth="350.0dip" android:hint="Manual Input" android:ems="10" android:inputType="number"
+                    android:maxLength="8" />
+            </TableRow>
+            <TableRow android:gravity="center" android:id="@+id/tableRow4" android:paddingTop="10.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content"
+                android:visibility="invisible">
+                <TextView android:id="@+id/textView2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="I am a..." />
+                <TextView android:id="@+id/tv_student_teacher_pos" android:padding="10.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Student" />
+
+                <Button android:id="@+id/btn_toggle_pos" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Change to teacher!" android:onClick="toggle_pos"
+                    android:visibility="gone" />
+            </TableRow>
+            <TableRow android:gravity="center" android:id="@+id/tableRow6" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <Button android:id="@+id/btn_input_id" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Go!" android:onClick="click_input_id" />
+            </TableRow>
+        </LinearLayout>
+    </TableRow>
+    <TableRow android:id="@+id/tableRow3" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:id="@+id/textView3" android:padding="10.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="DS currently on duty:" />
+        <TextView android:id="@+id/textView4" android:padding="10.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="None!" />
+    </TableRow>
+</LinearLayout>

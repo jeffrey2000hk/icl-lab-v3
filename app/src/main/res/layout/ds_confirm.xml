@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TableRow android:gravity="center" android:id="@+id/tableRow1" android:padding="10.0dip" android:paddingTop="20.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <TextView android:textSize="20.0sp" android:id="@+id/thankyou_machineID" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="You have successfully taken duty!" />
+        </LinearLayout>
+        <TextView android:id="@+id/view_person" android:layout_width="50.0dip" android:layout_height="wrap_content" />
+    </TableRow>
+    <TableRow android:gravity="center" android:id="@+id/tableRow2" android:paddingTop="20.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <Button android:id="@+id/from_viewsurface_to_input" android:background="@drawable/button_background" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Back" android:onClick="goto_student" />
+    </TableRow>
+</LinearLayout>

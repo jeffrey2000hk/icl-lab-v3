@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+    android:padding="10dp">
+
+  <ScrollView
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:id="@+id/scrollView2" >
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+      <TextView android:id="@id/thankyou_machineID" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Borrowed by teachers:" />
+
+      <TextView android:id="@id/teacher_surface_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="TextView" />
+
+      <TextView android:id="@id/textView2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Borrowed by students:" />
+
+      <TextView android:id="@id/student_surface_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="TextView" />
+
+      <TextView android:id="@id/view_person" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Remaining" />
+
+      <TextView android:id="@id/remain_surface_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="TextView" />
+
+      <Button android:id="@id/from_viewsurface_to_input" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Back" android:onClick="load_input" />
+
+      <Button android:id="@+id/from_viewsurface_to_console" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Back" android:onClick="load_admin" />
+    </LinearLayout>
+  </ScrollView>
+
+  <LinearLayout
+      android:orientation="vertical"
+      android:layout_width="match_parent"
+      android:layout_height="match_parent">
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="10dp">
+
+      <TextView
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:textAppearance="?android:attr/textAppearanceLarge"
+          android:text="Surface Search:"
+          android:id="@+id/textView" />
+
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/row_searchsurface"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+
+      <TextView
+          android:textSize="18.0sp"
+          android:id="@+id/textView6"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="T00" />
+
+      <EditText
+          android:id="@+id/editText2"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:ems="10"
+          android:maxLength="3"
+          android:inputType="number" />
+
+      <Button
+          android:id="@+id/button11"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="Search!"
+          android:onClick="surface_search" />
+    </TableRow>
+  </LinearLayout>
+
+</LinearLayout>

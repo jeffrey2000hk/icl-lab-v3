@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="18.0sp" android:id="@+id/textView1" android:padding="7.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Would you like to borrow or return machines?" />
+    <TableRow android:id="@+id/tableRow2" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:textSize="18.0sp" android:id="@+id/textView4" android:paddingLeft="7.0dip" android:paddingBottom="3.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="You have borrowed machines" />
+        <TextView android:textSize="18.0sp" android:id="@+id/textView5" android:paddingLeft="7.0dip" android:paddingBottom="3.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="(Loading)" />
+    </TableRow>
+    <TableRow android:id="@+id/tableRow1" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:gravity="center" android:orientation="vertical" android:background="#ffff8888" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="100.0" android:onClick="teacher_choose_borrow">
+            <ImageView android:id="@+id/imageView1" android:paddingBottom="10.0dip" android:layout_width="300dp" android:layout_height="300dp" android:src="@drawable/borrow" android:adjustViewBounds="true" android:maxWidth="330.0dip" android:maxHeight="330.0dip" />
+            <TextView android:textSize="40dp" android:id="@+id/textView2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Borrow Machines" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center" android:orientation="vertical" android:background="#ff88ff88" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="100.0" android:onClick="teacher_choose_return">
+            <ImageView android:id="@+id/imageView2" android:paddingBottom="10.0dip" android:layout_width="300dp" android:layout_height="300dp" android:src="@drawable/return_image" android:adjustViewBounds="true" android:maxWidth="330.0dip" android:maxHeight="330.0dip" />
+            <TextView android:textSize="40dp" android:id="@+id/textView3" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Return Machines" />
+        </LinearLayout>
+    </TableRow>
+</LinearLayout>

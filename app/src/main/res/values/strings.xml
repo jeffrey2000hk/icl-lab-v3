@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="abc_action_mode_done">Done</string>
+    <string name="abc_action_bar_home_description">Navigate home</string>
+    <string name="abc_action_bar_up_description">Navigate up</string>
+    <string name="abc_action_menu_overflow_description">More options</string>
+    <string name="abc_searchview_description_search">Search</string>
+    <string name="abc_searchview_description_query">Search query</string>
+    <string name="abc_searchview_description_clear">Clear query</string>
+    <string name="abc_searchview_description_submit">Submit query</string>
+    <string name="abc_searchview_description_voice">Voice search</string>
+    <string name="abc_activitychooserview_choose_application">Choose an app</string>
+    <string name="abc_activity_chooser_view_see_all">See all</string>
+    <string name="abc_shareactionprovider_share_with_application">Share with %s</string>
+    <string name="abc_shareactionprovider_share_with">Share with</string>
+    <string name="app_name">Computer Lab Registration System V3</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="SCL_01">01</string>
+    <string name="SCL_02">02</string>
+    <string name="SCL_03">03</string>
+    <string name="SCL_04">04</string>
+    <string name="SCL_05">05</string>
+    <string name="SCL_06">06</string>
+    <string name="SCL_07">07</string>
+    <string name="SCL_08">08</string>
+    <string name="SCL_09">09</string>
+    <string name="SCL_10">10</string>
+    <string name="SCL_11">11</string>
+    <string name="SCL_12">12</string>
+    <string name="Door">Door</string>
+
+    <string-array name="day">
+        <item />
+        <item>Monday</item>
+        <item>Tuesday</item>
+        <item>Wednesday</item>
+        <item>Thursday</item>
+        <item>Friday</item>
+    </string-array>
+    <string-array name="time">
+        <item />
+        <item>Lunch</item>
+        <item>After School</item>
+    </string-array>
+    <string-array name="List_of_DS">
+        <item />
+        <item>7A (25) Ng Dominic Chi Kin</item>
+        <item>7B (29) Tse Tsz Chun Bryce</item>
+        <item>7C (17) Liu Sin Hang Alison</item>
+        <item>7C (32) Yan Pok Wai</item>
+        <item>7D (30) Wong Tsz Chun</item>
+        <item>8A (3) Chang Chun Hei</item>
+        <item>8A (4) Cheng Tsun Hei</item>
+        <item>8A (5) Chow Hiu Yu</item>
+        <item>8A (9) Fu Ho Hon</item>
+        <item>8A (18) Mak Cheuk Fung</item>
+        <item>8A (21) Ng Caleb Isaac</item>
+        <item>8C (1) Chan Chin Wai</item>
+        <item>8C (7) Choi Tsz Yu</item>
+        <item>8C (8) Chung Tak Chun Bennett</item>
+        <item>8C (9) Fung Kei Cheung</item>
+        <item>8E (26) So Tsz Hei</item>
+        <item>8E (31) Wong Chun Hei</item>
+        <item>9A (19) Poon Siu Wai</item>
+        <item>9C (35) Yuen Chun Hin Luigi</item>
+        <item>9D (13) Lee Cheuk Yu</item>
+        <item>9D (24) Tse Hong Ting</item>
+        <item>9D (26) Wong Sze Chun Reagan</item>
+        <item>10A (1) Au Cheuk Ming</item>
+        <item>10A (10) Ho Yu Yat</item>
+        <item>10A (13) Lee Chun Yin</item>
+        <item>10B (17) Mak Shek Wang</item>
+    </string-array>
+    <string-array name="Monday_Lunch">
+        <item />
+        <item>10A (10) Ho Yu Yat</item>
+        <item>9D (24) Tse Hong Ting</item>
+        <item>8C (1) Chan Chin Wai</item>
+        <item>8C (7) Choi Tsz Yu</item>
+    </string-array>
+    <string-array name="Monday_After_School">
+        <item />
+        <item>7D (30) Wong Tsz Chun</item>
+        <item>8A (18) Mak Cheuk Fung</item>
+    </string-array>
+    <string-array name="Tuesday_Lunch">
+        <item />
+        <item>8A (5) Chow Hiu Yu</item>
+        <item>8A (3) Chang Chun Hei</item>
+        <item>8A (9) Fu Ho Hon</item>
+        <item>8A (21) Ng Caleb Isaac</item>
+    </string-array>
+    <string-array name="Tuesday_After_School">
+        <item />
+        <item>9D (13) Lee Cheuk Yu</item>
+    </string-array>
+    <string-array name="Wednesday_Lunch">
+        <item />
+        <item>10A (1) Au Cheuk Ming</item>
+        <item>8A (4) Cheng Tsun Hei</item>
+        <item>8C (9) Fung Kei Cheung</item>
+    </string-array>
+    <string-array name="Wednesday_After_School">
+        <item />
+        <item>10A (13) Lee Chun Yin</item>
+        <item>8E (31) Wong Chun Hei</item>
+    </string-array>
+    <string-array name="Thursday_Lunch">
+        <item />
+        <item>8E (31) Yuen Chun Hin Luigi</item>
+        <item>7B (29) Tse Tsz Chun Bryce</item>
+    </string-array>
+    <string-array name="Thursday_After_School">
+        <item />
+        <item>9A (19) Poon Siu Wai</item>
+        <item>8C (8) Chung Tak Chun Bennett</item>
+        <item>7C (17) Liu Sin Hang Alison</item>
+    </string-array>
+    <string-array name="Friday_Lunch">
+        <item />
+        <item>10B (17) Mak Shek Wang</item>
+        <item>8E (26) So Tsz Hei</item>
+        <item>7C (32) Yan Pok Wai</item>
+    </string-array>
+    <string-array name="Friday_After_School">
+        <item />
+        <item>9D (26) Wong Sze Chun Reagan</item>
+        <item>7A (25) Ng Dominic Chi Kin</item>
+    </string-array>
+
+    <string name="title_activity_create_session">Create a new lab session</string>
+    <string name="title_activity_welcome">Welcome to the Computer Lab!</string>
+    <string name="title_activity_student_surface">Please choose which machine you would like to use</string>
+    <string name="title_activity_view_seating">Desktop Seating Plan</string>
+    <string name="title_activity_teacher_borrow_surface">Please select which machines you would like to borrow</string>
+    <string name="title_activity_teacher_return_surface">Please select which machines you would like to return</string>
+    <string name="title_activity_teacher_borrow_return">Please select if you want to borrow or return machines</string>
+    <string name="title_activity_view_surface">Surface Status</string>
+    <string name="title_activity_search_surface">Surface Search</string>
+    <string name="title_activity_system_config">System Configuration</string>
+
+</resources>

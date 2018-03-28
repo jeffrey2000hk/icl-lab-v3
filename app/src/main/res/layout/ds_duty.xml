@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:id="@id/thankyou_machineID" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="1. Please enter your student ID" />
+
+  <AutoCompleteTextView
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:inputType="number"
+      android:ems="10"
+      android:id="@+id/editText3" />
+
+  <TextView android:id="@id/textView2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="2. Please select who you are substituting duty of from the list" />
+    <Spinner android:id="@+id/day_time_ds" android:padding="5.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <Button android:id="@id/from_seating_to_input" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Take duty!" />
+    <Button android:id="@id/from_viewsurface_to_input" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Back to main menu" android:onClick="back_to_main" />
+</LinearLayout>

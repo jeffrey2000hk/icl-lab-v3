@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="ds.com.icl_lab_v3">
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.GET_TASKS" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".MainMenu"
+            android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".ds_duty_tabs"
+            android:label="DS Duty"></activity>
+        <!-- <activity -->
+        <!-- android:name=".ds_take_duty" -->
+        <!-- android:label="DS Duty" > -->
+        <!-- </activity> -->
+        <!-- <activity -->
+        <!-- android:name=".ds_leave_duty" -->
+        <!-- android:label="DS Duty" > -->
+        <!-- </activity> -->
+        <activity
+            android:name=".ds_console"
+            android:label="DS Console"></activity>
+        <activity
+            android:name=".ds_console_password"
+            android:label="DS Console Password"></activity>
+        <activity
+            android:name=".ds_console_password_heads"
+            android:label="Admin Console Password"></activity>
+        <activity
+            android:name=".id_input"
+            android:label="SID Input"></activity>
+        <activity
+            android:name=".surface_desktop"
+            android:label="Please choose which type of machine you would like to use"></activity>
+        <activity
+            android:name=".seating"
+            android:label="Please choose which machine you would like to use"></activity>
+        <activity
+            android:name=".thankyou"
+            android:label="Thank you for your service!"></activity>
+        <activity
+            android:name=".create_session"
+            android:label="@string/title_activity_create_session"></activity>
+        <activity
+            android:name=".welcome"
+            android:label="@string/title_activity_welcome"></activity>
+        <activity
+            android:name=".student_surface"
+            android:label="@string/title_activity_student_surface"></activity>
+        <activity
+            android:name=".view_seating"
+            android:label="Desktop Seating Plan"></activity>
+        <activity
+            android:name=".teacher_borrow_return"
+            android:label="@string/title_activity_teacher_borrow_return"></activity>
+        <activity
+            android:name=".teacher_borrow_surface"
+            android:label="@string/title_activity_teacher_borrow_surface"></activity>
+        <activity
+            android:name=".teacher_return_surface"
+            android:label="@string/title_activity_teacher_return_surface"></activity>
+        <activity
+            android:name=".view_surface"
+            android:label="@string/title_activity_view_surface"></activity>
+        <activity
+            android:name=".system_config"
+            android:label="@string/title_activity_system_config"></activity>
+    </application>
+
+</manifest>
